@@ -1,0 +1,15 @@
+{
+  "name": "acm-icpc-scoreboard",
+  "version": "1.0.0",
+  "description": "ACM-ICPC滚动揭榜系统 - 支持100支队伍的实时竞赛计分与闭幕式滚榜",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4",
+    "uuid": "^9.0.0"
+  }
+}
